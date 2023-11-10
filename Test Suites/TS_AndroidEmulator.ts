@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>google</name>
+   <name>TS_AndroidEmulator</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>4b9cc8c2-625c-4942-8706-0aabc44edb99</testSuiteGuid>
    <testCaseLink>
-      <guid>e10bf024-9497-4b06-9979-bf0b04ff65dc</guid>
+      <guid>e18457ac-044b-4d7e-9ce2-411611bbe35b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/google</testCaseId>
+      <testCaseId>Test Cases/TC_AndroidEmulator</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

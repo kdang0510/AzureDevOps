@@ -1,0 +1,13 @@
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+- task: katalonTask@1
+  displayName: 'Execute Katalon Studio project'
+  inputs:
+    version: '8.6.8'
+    executeArgs: '-browserType="Android" -deviceId="emulator-5554" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_AndroidEmulator" -apikey="1327ded1-ce91-409e-ad90-049b5f61b39d" -licenseRelease=true -orgID=255036 --config -webui.autoUpdateDrivers=true'

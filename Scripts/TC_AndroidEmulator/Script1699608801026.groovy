@@ -17,7 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Mobile.startApplication('/Users/khang.dang/Library/CloudStorage/GoogleDrive-khang.dang@katalon.com/My Drive/ApiDemos.apk', 
+    true)
 
-WebUI.navigateToUrl('https://google.com')
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility Node Provider'), 0)
+
+Mobile.closeApplication()
 
