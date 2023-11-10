@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/khang.dang/Library/CloudStorage/GoogleDrive-khang.dang@katalon.com/My Drive/ApiDemos.apk', 
-    true)
+Mobile.startApplication('C:\\Users\\linh.nguyen\\Desktop\\ApiDemos.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Accessibility'), 0)
 
